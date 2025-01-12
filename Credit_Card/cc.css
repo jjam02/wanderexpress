@@ -1,0 +1,63 @@
+.pos1 {
+  position: absolute;
+  right: 240px;
+  top: 210px;
+}
+
+.pos2 {
+    position: absolute;
+    right: 740px;
+    top: 210px;
+}
+
+.pos3 {
+    position: absolute;
+    right: 740px;
+    top: 210px;
+}  
+
+.pos4 {
+    position: absolute;
+    right: 740px;
+    top: 210px;
+}  
+
+.pos5 {
+    position: absolute;
+    right: 740px;
+    top: 210px;
+}  
+
+.pos6 {
+    position: absolute;
+    right: 740px;
+    top: 210px;
+}  
+
+.pos7 {
+    position: absolute;
+    right: 740px;
+    top: 210px;
+}  
+
+.pos8 {
+    position: absolute;
+    right: 740px;
+    top: 210px;
+}  
+
+/* Add Zoom Animation */
+.ccanimate {
+  -webkit-animation: animatezoom 1s;
+  animation: animatezoom 1ms
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}

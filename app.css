@@ -1,0 +1,250 @@
+body { 
+  font-family: 'Times New Roman', Arial; 
+  margin: 0; 
+  padding: 0; 
+  color: rgb(0, 0, 0);
+} 
+footer { 
+  background: #919191; 
+} 
+
+h6{
+  font-size: 48px;
+  font-family: "Lucida Handwriting";
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 32px;
+}
+p {
+  font-size: 20px;
+}
+
+header { 
+  background-color: #919191; 
+  color: #000000; 
+  text-align: center; 
+  display: flex;
+} 
+
+button {
+  background-color: #0332cc;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 12px;
+  cursor: pointer;
+  width: auto;
+  display: block;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 200px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto; /* 15% from the top and centered */
+  margin-top: auto;
+  border: 1px solid #888;
+  width:  25%; /* Could be more or less, depending on screen size */
+  height: 35%; /* Full height */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 740px;
+  top: 210px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: rgb(114, 114, 114);
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+
+/* ******** */
+/* NAV BAR */
+/* ******** */
+
+
+nav { 
+  background-color: #919191; 
+  padding: 10px; 
+  text-align: center;
+} 
+
+nav a { 
+  color: #000000; 
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 80px;
+  padding: 10px;  
+  border-bottom: 5px solid transparent;
+  
+} 
+
+nav a:hover {
+  /* box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.3); */
+  border-bottom: 5px solid rgb(230, 230, 1);
+}
+
+.centerText {
+  margin: auto;
+}
+
+.dropbtn {
+  color: #000000; 
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 80px;
+  padding: 10px;  
+  border-bottom: 5px solid transparent;
+  margin: auto;
+}
+
+.dropbtn:hover {
+  border-bottom: 5px solid rgb(230, 230, 1);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 80px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+  left: 50%;
+  transform: translatex(-50%);
+  margin: 0px;
+  border-radius: 25px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 0px;
+  border-radius: 25px;
+  border: 5px solid transparent;
+}
+.dropdown-content a:hover{
+  border: 5px solid rgb(230, 230, 1);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* ******* */
+/* ARTICLE */
+/* ******* */
+
+.container { 
+  display: flex; 
+  justify-content: left; 
+  margin:0; 
+  padding: 20px; 
+  background-color: #919191; 
+  background-image: url('Clouds.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerBottom { 
+  display: flex; 
+  justify-content: left; 
+  margin:0; 
+  padding: 20px; 
+  background-color: #919191; 
+  background-image: url('Grass.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+main { 
+  flex: 2; 
+} 
+
+.words { 
+  text-align: justify; 
+  margin-left: 30px; 
+} 
+article {
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  background-color: #ffffff; 
+  margin-bottom: 20px; 
+  padding: 10px 20px; 
+  margin-right: 10px;
+  display: flex
+}
+
+aside { 
+  flex: 1; 
+  background-color: #c9c9c9; 
+  padding: 10px; 
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  text-align: center; 
+}
+
+.cardEntry{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px
+}
+  

@@ -24,37 +24,37 @@ class navBar extends HTMLElement {
                         </div>
                     </div>
                 
-                    <a href="C:/Users/Thomas/Downloads/Blog Website/Travel_Review.html">Travel Reviews</a> 
+                    <a href="/Travel_Review.html">Travel Reviews</a> 
                     
                     <div class="dropdown">
                         <div class="dropbtn">Airlines</div>
                         <div class="dropdown-content">
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Airlines/AS.html">Alaska</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Airlines/AA.html">American</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Airlines/DL.html">Delta</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Airlines/UA.html">United</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Airlines/AC.html">Air Canada</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Airlines/IAG.html">IAG/Avios</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Airlines/AFKLM.html">Air France/KLM</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Airlines/ANA.html">ANA</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Airlines/EVA.html">EVA</a>
+                            <a href="/Airlines/AS.html">Alaska</a>
+                            <a href="/Airlines/AA.html">American</a>
+                            <a href="/Airlines/DL.html">Delta</a>
+                            <a href="/Airlines/UA.html">United</a>
+                            <a href="/Airlines/AC.html">Air Canada</a>
+                            <a href="/Airlines/IAG.html">IAG/Avios</a>
+                            <a href="/Airlines/AFKLM.html">Air France/KLM</a>
+                            <a href="/Airlines/ANA.html">ANA</a>
+                            <a href="/Airlines/EVA.html">EVA</a>
                         </div>
                     </div>
                     
                     <div class="dropdown">
                         <div class="dropbtn">Hotels</div>
                         <div class="dropdown-content">
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Hotels/Choice.html">Choice</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Hotels/Hilton.html">Hilton</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Hotels/Hyatt.html">Hyatt</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Hotels/IHG.html">IHG</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Hotels/Marriott.html">Marriott</a>
-                            <a href="C:/Users/Thomas/Downloads/Blog Website/Hotels/Wyndham.html">Wyndham</a>
+                            <a href="/Hotels/Choice.html">Choice</a>
+                            <a href="/Hotels/Hilton.html">Hilton</a>
+                            <a href="/Hotels/Hyatt.html">Hyatt</a>
+                            <a href="/Hotels/IHG.html">IHG</a>
+                            <a href="/Hotels/Marriott.html">Marriott</a>
+                            <a href="/Hotels/Wyndham.html">Wyndham</a>
                         </div>
                     </div>
-                    <a href="C:/Users/Thomas/Downloads/Blog Website/Flight_Sweetspots.html">Flight SweetSpots</a>
-                    <a href="C:/Users/Thomas/Downloads/Blog Website/Tierlist.html">Tierlist</a>
-                    <a href="C:/Users/Thomas/Downloads/Blog Website/News_Archive.html">News Archive</a>
+                    <a href="/Flight_Sweetspots.html">Flight SweetSpots</a>
+                    <a href="/Tierlist.html">Tierlist</a>
+                    <a href="/News_Archive.html">News Archive</a>
                 </nav> 
             </div>
             </header> 

@@ -2,8 +2,8 @@ class navBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <header>  
-            <a href="C:/Users/Thomas/Downloads/Blog Website/index.html">
-                <img src="C:/Users/Thomas/Downloads/Blog Website/logoNav.png" alt="Travel Express" width="187" height="150">
+            <a href="/index.html">
+                <img src="/logoNav.png" alt="Travel Express" width="187" height="150">
             </a>
             <div class="centerText">
                 <h6>
@@ -13,14 +13,14 @@ class navBar extends HTMLElement {
                     <div class="dropdown">
                         <div class="dropbtn">Credit Cards</div>
                         <div class="dropdown-content">
-                        <a href="C:/Users/Thomas/Downloads/Blog Website/Credit_Card/Amex.html">American Express</a>
-                        <a href="C:/Users/Thomas/Downloads/Blog Website/Credit_Card/BoA.html">Bank of America</a>
-                        <a href="C:/Users/Thomas/Downloads/Blog Website/Credit_Card/C1.html">Capital One</a>
-                        <a href="C:/Users/Thomas/Downloads/Blog Website/Credit_Card/Chase.html">Chase</a>
-                        <a href="C:/Users/Thomas/Downloads/Blog Website/Credit_Card/Citi.html">Citi</a>
-                        <a href="C:/Users/Thomas/Downloads/Blog Website/Credit_Card/USBank.html">US Bank</a>
-                        <a href="C:/Users/Thomas/Downloads/Blog Website/Credit_Card/WF.html">Wells Fargo</a>
-                        <a href="C:/Users/Thomas/Downloads/Blog Website/Credit_Card/Other.html">Other</a>
+                        <a href="/Credit_Card/Amex.html">American Express</a>
+                        <a href="/Credit_Card/BoA.html">Bank of America</a>
+                        <a href="/Credit_Card/C1.html">Capital One</a>
+                        <a href="/Credit_Card/Chase.html">Chase</a>
+                        <a href="/Credit_Card/Citi.html">Citi</a>
+                        <a href="/Credit_Card/USBank.html">US Bank</a>
+                        <a href="/Credit_Card/WF.html">Wells Fargo</a>
+                        <a href="/Credit_Card/Other.html">Other</a>
                         </div>
                     </div>
                 
